@@ -1,5 +1,2 @@
 # The-Money-Counter
-
-// This section of code outputs an erroneous message if the user clicks a coin before entering the cost per credit 
-            if (txtcostpercredit.Text == "") 
-                MessageBox.Show("You have not set the cost of a credit!"); 
+I'll be demonstrating how I created a 'Money Counter' program in Visual Studion using C#.
