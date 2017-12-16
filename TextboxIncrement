@@ -1,0 +1,6 @@
+//This section of code increases the value inside the txttotalpence textbox by 1 each time a 1 pence coin is clicked
+
+// txttotalpence.Text = txttotalpence.Text += 1;
+
+            inttext += 1; // ADDS VALUE TO INT
+            txttotalpence.Text = inttext.ToString(); //UPDATES THE TEXTBOX
