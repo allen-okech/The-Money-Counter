@@ -1,0 +1,4 @@
+// This section of code increases the coin counter by 1 each time a coin is clicked
+            i = Int32.Parse(lbl1pence.Text);
+            i++;
+            lbl1pence.Text = i.ToString();
