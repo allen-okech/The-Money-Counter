@@ -1,0 +1,18 @@
+// This section of code declares and initializes 3 key variables to be used that will determine the number of credits 
+            
+            int x = 0;
+            int y = 0;
+            int s = 0;
+            Int32.TryParse(txttotalpence.Text, out s);
+            
+// The IF statement below is a validity check because the required sum of x / y wouldn't work.
+   
+
+            if( s > 0)
+
+
+            Int32.TryParse(txttotalpence.Text, out x); // This converts the value from string to integers and outputs the value to x
+            Int32.TryParse(txtcostpercredit.Text, out y); // This converts the value from string to integers and outputs the value to y
+            int dd = (x / y); // Divides it to get the credits
+            txtpresentcredits.Text = dd.ToString(); // This converts the integer to a string and outputs it in the textbox
+            
